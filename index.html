@@ -23,6 +23,15 @@
                 </div>
                 <div>
                     <h4>Newest blog</h4>
+                    <img src="blogs/first/resources/preview.png">
+                    <div id="firstBlogDescription">
+                        <script>
+                            fetch('/blogs/first/resources/description')
+                                .then(response => response.text())
+                                .then(data => document.getElementById('firstBlogDescription').innerHTML = data)
+                                .catch(error => console.error('Error fetching data:', error));
+                        </script>
+                    </div>
                 </div>
             </div>
         </div>
