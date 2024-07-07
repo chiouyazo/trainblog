@@ -17,6 +17,8 @@ body {
 }
 
 .navbar {
+    margin-top: 10px;
+    margin-left: 10px;
     overflow: hidden;
     width: 100px;
     border: 2px solid black;
