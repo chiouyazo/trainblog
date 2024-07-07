@@ -42,6 +42,9 @@ body {
         align-items: center;
     }
     
+    .CustomBody {
+        margin-top: 50px;
+    }
 }
 
 .navbar a {
