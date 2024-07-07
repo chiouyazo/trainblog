@@ -33,17 +33,13 @@ body {
     .navbar {
         margin-top: 10px;
         margin-left: 10px;
-        width: 250px;
+        width: 95%;
         overflow: hidden;
         border: 2px solid black;
         border-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    
-    .CustomBody {
-        padding-top: 50px;
     }
 }
 
