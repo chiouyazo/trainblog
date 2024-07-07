@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.CustomBody {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+}
+
+.legalSection {
+    background-color: gray;
+    /* padding: 50px 0; */
+    top: 100vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    height: 10vh;
+    /* margin-top: 100vh; */
+}
