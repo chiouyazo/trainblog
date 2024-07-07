@@ -43,4 +43,8 @@
         margin-top: 15px;
         font-size: 23px;
     }
+
+    .ownBody {
+        padding-top: 50px;
+    }
 }
