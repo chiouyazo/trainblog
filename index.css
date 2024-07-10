@@ -30,6 +30,37 @@
     text-align:center;
 }
 
+.stretchedContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 72.5%;
+    background-color: #E6E5E5;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.stretchedContent div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    text-align:center;
+}
+
+.stretchedContent div img {
+    width: 90%;
+    border-radius: 15px;
+}
+.stretchedContent div div {
+    width: 80%;
+    margin: 10px;
+    text-align:center;
+    font-size: medium;
+}
+
 .Title {
     margin-top: 15px;
     font-size: 25px;
@@ -38,7 +69,27 @@
 @media (max-width: 710px) {
     .content {
         display: block;
+        align-items: center;
     }
+    .content div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stretchedContent {
+        display: block;
+        align-items: center;
+    }
+    .stretchedContent div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
     .Title {
         margin-top: 15px;
         font-size: 23px;
