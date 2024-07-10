@@ -41,6 +41,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.stretchedContent div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .stretchedContent div div {
     width: 90%;
     display: flex;
@@ -82,7 +88,7 @@
         display: block;
         align-items: center;
     }
-    .stretchedContent div div {
+    .stretchedContent div {
         width: 100%;
         display: flex;
         flex-direction: column;
