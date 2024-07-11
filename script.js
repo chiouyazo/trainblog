@@ -9,7 +9,8 @@ function GetDescription(blogName, target) {
 }
 
 function GetTitle(blogName, target) {
-    var fetchTarget = window.location.href.replace("/index.html", "") + '/blogs/' + blogName + '/resources/headline';
+    console.log("location: " + window.location.hostname);
+    var fetchTarget = new  window.location.hostname + '/blogs/' + blogName + '/resources/headline';
     console.log("Fetching: " + fetchTarget);
     fetch(fetchTarget)
         .then(response => response.text())
