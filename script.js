@@ -1,6 +1,6 @@
 function GetDescription(blogName, target) {
     console.log("location: " + window.location.hostname);
-    var fetchTarget = new  window.location.hostname + '/blogs/' + blogName + '/resources/description';
+    var fetchTarget = window.location.hostname + '/blogs/' + blogName + '/resources/description';
     console.log("Fetching: " + fetchTarget);
     fetch(fetchTarget)
         .then(response => response.text())
@@ -10,7 +10,7 @@ function GetDescription(blogName, target) {
 
 function GetTitle(blogName, target) {
     console.log("location: " + window.location.hostname);
-    var fetchTarget = new  window.location.hostname + '/blogs/' + blogName + '/resources/headline';
+    var fetchTarget = window.location.hostname + '/blogs/' + blogName + '/resources/headline';
     console.log("Fetching: " + fetchTarget);
     fetch(fetchTarget)
         .then(response => response.text())
