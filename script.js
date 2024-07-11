@@ -1,4 +1,5 @@
 function GetDescription(blogName, target) {
+    console.log(window.location.hostname);
     var fetchTarget = new  window.location.hostname + '/blogs/' + blogName + '/resources/description';
     console.log("Fetching: " + fetchTarget);
     fetch(fetchTarget)
