@@ -47,9 +47,9 @@ function MakeBigBlogDisplay(blogName, target) {
     anchor.appendChild(div1);
     anchor.appendChild(div2);
 
-    var targetDiv = document.getElementById(target);
-    console.log(targetDiv)
-    targetDiv.appendChild(anchor);
+    var targetDiv = document.getElementsByClassName(target);
+    console.log(targetDiv[0])
+    targetDiv[0].appendChild(anchor);
 
     GetTitle('00_pricing', '00_pricing_Title');
     GetDescription('00_pricing', '00_pricing_Description');
