@@ -49,7 +49,7 @@ function MakeBigBlogDisplay(blogName, target) {
 
     var targetDiv = document.getElementsByClassName(target);
     console.log(targetDiv)
-    targetDiv.innerHtml = anchor;
+    targetDiv.appendChild(anchor);
 
     GetTitle('00_pricing', '00_pricing_Title');
     GetDescription('00_pricing', '00_pricing_Description');
