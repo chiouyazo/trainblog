@@ -51,7 +51,8 @@ function MakeBigBlogDisplay(blogName, target) {
 
     const targetDiv = document.getElementById(target);
     console.log(targetDiv)
-    targetDiv.appendChild(anchor);
+    targetDiv.appendChild(div1);
+    targetDiv.appendChild(div2);
 
     GetTitle('00_pricing', '00_pricing_Title');
     GetDescription('00_pricing', '00_pricing_Description');
