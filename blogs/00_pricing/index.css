@@ -61,8 +61,8 @@
     text-align:center;
 }
 
-.stretchedContent div img {
-    width: 90%;
+.preview {
+    width: 75%;
     border-radius: 15px;
 }
 .stretchedContent div div div {
