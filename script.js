@@ -24,9 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(elements[i].id);
         MakeBigBlogDisplay(elements[i].id);
     }
-    /* MakeBigBlogDisplay('00_pricing');
-    MakeBigBlogDisplay('02_basicRails');
-    MakeBigBlogDisplay('01_intro'); */
 });
 
 function MakeBigBlogDisplay(blogName) {
