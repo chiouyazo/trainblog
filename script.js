@@ -21,6 +21,7 @@ function GetTitle(blogName, target) {
 MakeBigBlogDisplay('00_pricing', '00_pricing');
 
 function MakeBigBlogDisplay(blogName, target) {
+    console.log("Creating blog: " + blogName);
     const anchor = document.createElement('a');
     anchor.className = 'stretchedContent';
     anchor.href = 'blogs/' + blogName + '/index.html';
@@ -47,7 +48,7 @@ function MakeBigBlogDisplay(blogName, target) {
     anchor.appendChild(div2);
 
     const targetDiv = document.getElementById(target);
-    targetDiv.appendChild(anchor);
+    targetDiv.innerHtml = anchor;
 
     GetTitle('00_pricing', '00_pricing_Title');
     GetDescription('00_pricing', '00_pricing_Description');
