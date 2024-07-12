@@ -18,7 +18,7 @@ function GetTitle(blogName, target) {
         .catch(error => console.error('Error fetching data:', error));
 }
 
-MakeBigBlogDisplay('00_pricing', '00_pricing');
+MakeBigBlogDisplay('00_pricing', "00_pricing");
 
 function MakeBigBlogDisplay(blogName, target) {
     console.log("Creating blog: " + blogName);
@@ -47,7 +47,7 @@ function MakeBigBlogDisplay(blogName, target) {
     anchor.appendChild(div1);
     anchor.appendChild(div2);
 
-    var targetDiv = document.getElementsByClassName(target);
+    var targetDiv = document.getElementById(target);
     console.log(targetDiv)
     targetDiv.appendChild(anchor);
 
