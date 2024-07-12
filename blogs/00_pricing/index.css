@@ -62,9 +62,10 @@
 }
 
 .preview {
-    width: 75%;
+    width: 65%;
     border-radius: 15px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 .stretchedContent div div div {
     width: 80%;
