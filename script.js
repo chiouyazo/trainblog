@@ -31,8 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function MakeBigBlogDisplay(blogName) {
     console.log("Creating blog: " + blogName);
-    const anchor = document.createElement('a');
-    anchor.className = 'stretchedContent';
+    const anchor = document.getElementById(blogName);
     anchor.href = 'blogs/' + blogName + '/index.html';
 
     const div1 = document.createElement('div');
