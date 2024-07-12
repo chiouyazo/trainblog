@@ -70,6 +70,13 @@
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+.Description {
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .stretchedContent div div div {
     width: 80%;
     margin: 10px;
