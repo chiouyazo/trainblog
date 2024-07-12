@@ -20,6 +20,8 @@ function GetTitle(blogName, target) {
 
 document.addEventListener('DOMContentLoaded', function() {
     MakeBigBlogDisplay('00_pricing');
+    MakeBigBlogDisplay('02_basicRails');
+    MakeBigBlogDisplay('01_intro');
 });
 
 function MakeBigBlogDisplay(blogName) {
