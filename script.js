@@ -19,9 +19,14 @@ function GetTitle(blogName, target) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    MakeBigBlogDisplay('00_pricing');
+    var elements = document.getElementsByName('bigBlog');
+    for (let i = 0; i < elements.length; i++) {
+        console.log(elements[i].id);
+        MakeBigBlogDisplay(elements[i].id);
+    }
+    /* MakeBigBlogDisplay('00_pricing');
     MakeBigBlogDisplay('02_basicRails');
-    MakeBigBlogDisplay('01_intro');
+    MakeBigBlogDisplay('01_intro'); */
 });
 
 function MakeBigBlogDisplay(blogName) {
