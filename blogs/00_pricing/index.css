@@ -63,6 +63,9 @@
     font-size: large;
     text-align:center;
 }
+.content {
+    width: 71%;
+}
 
 .preview {
     width: 72.5%;
@@ -75,9 +78,7 @@
     width: 72.5%;
     margin-top: 15px;
     margin-bottom: 20px;
-    align-items: center;
-    align-self: center;
-    align-content: center;
+    text-align: center;
 }
 
 .stretchedContent div div div {
