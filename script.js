@@ -19,10 +19,10 @@ function GetTitle(blogName, target) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    MakeBigBlogDisplay('00_pricing', '00_pricing');
+    MakeBigBlogDisplay('00_pricing');
 });
 
-function MakeBigBlogDisplay(blogName, target) {
+function MakeBigBlogDisplay(blogName) {
     console.log("Creating blog: " + blogName);
     const anchor = document.createElement('a');
     anchor.className = 'stretchedContent';
@@ -49,11 +49,11 @@ function MakeBigBlogDisplay(blogName, target) {
     anchor.appendChild(div1);
     anchor.appendChild(div2);
 
-    const targetDiv = document.getElementById(target);
+    const targetDiv = document.getElementById(blogName);
     console.log(targetDiv)
     targetDiv.appendChild(div1);
     targetDiv.appendChild(div2);
 
-    GetTitle('00_pricing', '00_pricing_Title');
-    GetDescription('00_pricing', '00_pricing_Description');
+    GetTitle(blogName, blogName + '_Title');
+    GetDescription(blogName, blogName + '_Description');
 }
