@@ -47,7 +47,7 @@ function MakeBigBlogDisplay(blogName, target) {
     anchor.appendChild(div1);
     anchor.appendChild(div2);
 
-    var targetDiv = document.getElementById(target);
+    var targetDiv = document.getElementsByClassName(target);
     console.log(targetDiv)
     targetDiv.innerHtml = anchor;
 
