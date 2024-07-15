@@ -1,5 +1,9 @@
+.pricingTable {
+    align-items: center;
+}
+
 table {
-    max-width: 80%;
+    width: 80%;
 	border-collapse: collapse;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
