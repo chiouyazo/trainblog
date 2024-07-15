@@ -16,6 +16,7 @@ body {
     margin: 0;
     width: 100%;
 } */
+ 
 
 .navbar {
     margin-top: 10px;
@@ -70,6 +71,8 @@ body {
     text-align: center;
     z-index: 1;
     height: 10vh;
+    width: 100%;
+    margin-top: 175%;
     /* margin-top: 100vh; */
 }
 
