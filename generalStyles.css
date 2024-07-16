@@ -12,7 +12,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    width: 75%;
+    width: 70%;
 }
 
 .content div {
@@ -62,7 +62,7 @@
     text-align: center;
 }
 .content {
-    width: 74%;
+    width: 70%;
 }
 
 .preview {
