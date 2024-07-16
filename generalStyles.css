@@ -14,8 +14,10 @@
     gap: 10px;
     width: 70%;
 }
+
 .infoSection {
     color: gray;
+    text-align: center;
 }
 
 .content div {
@@ -107,6 +109,12 @@
 }
 
 @media (max-width: 710px) {
+    .infoSection {
+        color: gray;
+        text-align: center;
+        font-size: x-small;
+    }
+    
     .content {
         display: block;
         align-items: center;
