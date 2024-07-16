@@ -14,19 +14,19 @@
     width: 75%;
 }
 
-.content div {
+.content a {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.content div img {
+.content a img {
     width: 90%;
     border-radius: 15px;
 }
 
-.content div div {
+.content a div {
     width: 80%;
     margin: 10px;
     text-align: center;
@@ -96,7 +96,7 @@
         display: block;
         align-items: center;
     }
-    .content div {
+    .content a {
         width: 100%;
         display: flex;
         flex-direction: column;
