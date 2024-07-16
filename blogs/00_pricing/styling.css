@@ -5,10 +5,10 @@
 }
 
 @media (max-width: 710px) {
-.pricingTable {
-    width: 80%;
-    position: relative;
-}
+	.pricingTable {
+		width: 100vw;
+		position: relative;
+	}
 }
 
 table {
