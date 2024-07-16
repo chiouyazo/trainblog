@@ -2,9 +2,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    left: 10%;
     margin: 0;
-    width: 80%;
+    width: 100%;
     align-items: center;
 }
 
@@ -98,7 +97,7 @@
         flex-direction: column;
         left: 10%;
         margin: 0;
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
     
