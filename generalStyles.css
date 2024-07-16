@@ -101,6 +101,11 @@
     text-align: center;
 }
 
+.NormalBody {
+    display: block;
+    text-align: left;
+}
+
 @media (min-width: 1350px) {
     .ownBody {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
