@@ -64,13 +64,9 @@ body {
 
 .legalSection {
     background-color: gray;
-    /* padding: 50px 0; */
-    padding-top: 15px;
-    padding-bottom: 15px;
     text-align: center;
-    z-index: 1;
-    height: 10vh;
     width: 100%;
+    margin-top: 100%;
     /* margin-top: 220vh; */
     /* margin-top: 100vh; */
 }
