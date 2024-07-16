@@ -92,6 +92,13 @@
     margin-top: 15px;
     font-size: 25px;
 }
+
+.SmallTitle {
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
 @media (min-width: 1350px) {
     .ownBody {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
