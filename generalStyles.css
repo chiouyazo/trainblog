@@ -96,7 +96,6 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         display: flex;
         flex-direction: column;
-        position: absolute;
         left: 10%;
         margin: 0;
         width: 80%;
