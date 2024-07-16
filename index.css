@@ -19,11 +19,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
 }
 
 .content div img {
     width: 90%;
     border-radius: 15px;
+}
+
+.content div a {
+    display: flex;
+    justify-content: center;
+    width: 90%; 
 }
 
 .content div div {
