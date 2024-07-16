@@ -8,6 +8,7 @@
 	.pricingTable {
 		width: 100vw;
 		position: relative;
+		left: 0%;
 	}
 	table {
 		width: 100vw;
