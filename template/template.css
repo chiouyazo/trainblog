@@ -42,6 +42,18 @@ body {
     }
 }
 
+.SmallTitle {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.NormalBody {
+    display: block;
+    text-align: left;
+}
+
 .navbar a {
     display: block;
     color: black;
